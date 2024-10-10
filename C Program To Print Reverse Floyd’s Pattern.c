@@ -14,7 +14,9 @@ void Reverse_Floyd(int row)
 }
 int main()
 {
-	int row = 5; // The number of Rows to be printed.
+	int row; // The number of Rows to be printed.
+	printf("Enter Row Count : ");
+	scanf("%d", row);
 
 	Reverse_Floyd(row);
 
